@@ -1,0 +1,78 @@
+unit ScientificCalculator;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, ATButtons;
+
+type
+  TForm2 = class(TForm)
+    Display: TEdit;
+    Panel1: TPanel;
+    btn7: TPanel;
+    btn4: TPanel;
+    btn3: TPanel;
+    btn0: TPanel;
+    btnEq: TPanel;
+    btn8: TPanel;
+    btn9: TPanel;
+    btn5: TPanel;
+    btn6: TPanel;
+    btn2: TPanel;
+    btn1: TPanel;
+    btnPer: TPanel;
+    btnPi: TPanel;
+    btnDiv: TPanel;
+    btnMult: TPanel;
+    btnSub: TPanel;
+    btnAdd: TPanel;
+    btnCE: TPanel;
+    btnC: TPanel;
+    btnTan: TPanel;
+    btnCos: TPanel;
+    btnSin: TPanel;
+    btnArctan: TPanel;
+    btnArccos: TPanel;
+    btnArcsin: TPanel;
+    btnInvX: TPanel;
+    btnPowEx: TPanel;
+    btnPow10x: TPanel;
+    btnAbs: TPanel;
+    btnLN: TPanel;
+    btnLog: TPanel;
+    btnPowXY: TPanel;
+    btnSqr: TPanel;
+    btnSqRoot: TPanel;
+    procedure PanelMouseEnter(Sender: TObject);
+    procedure PanelMouseLeave(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.PanelMouseEnter(Sender: TObject);
+var
+  ThePanel: TPanel;
+begin
+  ThePanel := Sender as TPanel;
+  ThePanel.Color := clBtnShadow;
+end;
+
+procedure TForm2.PanelMouseLeave(Sender: TObject);
+var
+  ThePanel: TPanel;
+begin
+  ThePanel := Sender as TPanel;
+  ThePanel.color := cl3DDkShadow;
+end;
+
+end.

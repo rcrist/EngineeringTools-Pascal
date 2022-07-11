@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/11 10:04:21.000.276,=C:\Users\RICKC\Desktop\pascal_projects\Unit2.pas</Transaction>
+    <Transaction>2022/07/11 10:11:17.000.178,C:\Users\RICKC\Desktop\pascal_projects\Unit2.dfm=C:\Users\RICKC\Desktop\EngineeringTools-Pascal\ScientifCalculator\ScientificCalculator.dfm</Transaction>
+    <Transaction>2022/07/11 10:11:17.000.178,C:\Users\RICKC\Desktop\pascal_projects\Unit2.pas=C:\Users\RICKC\Desktop\EngineeringTools-Pascal\ScientifCalculator\ScientificCalculator.pas</Transaction>
+    <Transaction>2022/07/11 10:11:29.000.387,C:\Users\RICKC\Desktop\pascal_projects\Project1.dproj=C:\Users\RICKC\Desktop\EngineeringTools-Pascal\ScientifCalculator\ScientificCalculatorProject.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

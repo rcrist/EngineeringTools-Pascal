@@ -1,0 +1,70 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BiDiMode = bdRightToLeft
+  Caption = 'Scientific Calculator'
+  ClientHeight = 459
+  ClientWidth = 871
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Padding.Left = 5
+  Padding.Top = 5
+  Padding.Right = 5
+  Padding.Bottom = 5
+  OldCreateOrder = False
+  ParentBiDiMode = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Edit1: TEdit
+    Left = 5
+    Top = 5
+    Width = 861
+    Height = 47
+    Align = alTop
+    BevelOuter = bvRaised
+    BevelWidth = 3
+    BiDiMode = bdRightToLeft
+    Color = clMoneyGreen
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -32
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBiDiMode = False
+    ParentFont = False
+    TabOrder = 0
+    Text = '0.0'
+    ExplicitLeft = 0
+    ExplicitTop = 8
+    ExplicitWidth = 871
+  end
+  object Panel1: TPanel
+    Left = 5
+    Top = 52
+    Width = 861
+    Height = 402
+    Align = alClient
+    Caption = 'Panel1'
+    TabOrder = 1
+    ExplicitLeft = 8
+    ExplicitTop = 49
+    object Button1: TButton
+      Left = 552
+      Top = 16
+      Width = 75
+      Height = 50
+      Caption = '7'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -20
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+end
